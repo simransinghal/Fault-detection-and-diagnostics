@@ -9,15 +9,15 @@ from csv import reader
 
 def load_csv(filename):
     predictors = np.genfromtxt(filename, delimiter = ',')[:,:-1]
-    labels = np.array(list(reader(open(filename, "rt"))))[:,6]
+    #print predictors
+    #sys.exit()
+    labels = np.array(list(reader(open(filename, "rt"))))[:,8]
+    #print labels
+    #sys.exit()
     imp = preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0)
     imp.fit(predictors)
     predictors = imp.transform(predictors)
-    print
-    print predictors[24]
-    print
     predictors = preprocessing.scale(predictors)
-    print predictors
     return predictors, labels
 
 def SVM(train_data, train_labels, test_data, test_labels):
@@ -34,6 +34,7 @@ def SVM(train_data, train_labels, test_data, test_labels):
     grid_clsf.fit(train_data, train_labels)
 
     classifier = grid_clsf.best_estimator_
+    print classifier
     print grid_clsf.best_estimator_
 
     train_predictions = classifier.predict(train_data)
@@ -59,7 +60,7 @@ def SVM(train_data, train_labels, test_data, test_labels):
 filename = sys.argv[1]
 X_data, Y_data = load_csv(filename)
 
-sss = StratifiedShuffleSplit(n_splits=5, test_size=0.125)
+sss = StratifiedShuffleSplit(n_splits=5, test_size=0.150)
 metrics = []
 fold = 1
 for train_indices, test_indices in sss.split(X_data, Y_data):
@@ -82,3 +83,4 @@ precision = precision/5.0
 recall = recall/5.0
 fi = fi/5.0
 print (accuracy),(","),(precision),(", "),(recall),(", "),(fi)
+
