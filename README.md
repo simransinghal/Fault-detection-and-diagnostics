@@ -10,4 +10,9 @@ https://docs.google.com/document/d/1m4iDpOo5aQFVyRlhvc_UWvapJWMKR_XuqXaxfn_0P-M/
 
 https://docs.google.com/spreadsheets/d/1THmw3kyTD14GTmzfBvR8P3tPHFvmXSZCpnhePN43tJU/edit#gid=0
 
+https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+
+https://linode.com/docs/applications/big-data/how-to-move-machine-learning-model-to-production/
+
+
 
