@@ -15,4 +15,8 @@ https://machinelearningmastery.com/save-load-machine-learning-models-python-scik
 https://linode.com/docs/applications/big-data/how-to-move-machine-learning-model-to-production/
 
 
+#Link of the research paper
+https://bit.ly/2y0T2m8
+
+
 
