@@ -8,7 +8,7 @@ https://github.com/simransinghal/Fault-detection-and-diagnostics/blob/master/Pre
 https://github.com/simransinghal/Fault-detection-and-diagnostics/tree/master/IIITH_FDD%20Product%20specificatione 
 
 
-#Model Code with and without noise
+# Model Code with and without noise
 https://github.com/simransinghal/Fault-detection-and-diagnostics/blob/master/fdd_svm_used_for_submission.py
 https://github.com/simransinghal/Fault-detection-and-diagnostics/blob/master/noise_used_for_submission.py
 
