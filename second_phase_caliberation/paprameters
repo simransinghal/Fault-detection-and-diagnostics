@@ -1,0 +1,25 @@
+
+1) Fresh air temperature, supply air temperature, return air temperature, exhaust air temperature, and their relative humidity of the ERW unit (these are the ones we created last year) and also both rooms.
+so total 16.
+
+Now we need
+1) Outdoor temperature
+2) Two room temperatures (all locations) and Relative humidity
+3) Supply Air temperatures (all locations) and relative humidity
+4) Return Air temperatures and relative humidity.
+5) AHU Energy consumption
+6) Btu meter reading
+7) Supply Air CFM.
+8) AHU temperatures
+9) Chillers temperature (return and coming)
+10) HRW on off status
+111) chillers on-off status
+11) Fans pressure increase
+12) Supply,return,outdoor and exhaust air flow rate
+13) Indoor air quality(supply and return air)
+14) CO2, temperature, RH%.
+15) Dew point.
+16) Barometric pressure
+
+Again for both rooms
+
