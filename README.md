@@ -15,6 +15,13 @@ https://github.com/simransinghal/Fault-detection-and-diagnostics/tree/master/III
 https://github.com/simransinghal/Fault-detection-and-diagnostics/blob/master/fdd_svm_used_for_submission.py
 https://github.com/simransinghal/Fault-detection-and-diagnostics/blob/master/noise_used_for_submission.py
 
+---
+Resorces for Energy Recovery Wheel Units
+---
+
+1) https://www.aivc.org/sites/default/files/airbase_13031.pdf
+2) https://www.sciencedirect.com/science/article/pii/S0017931098003251
+
 
 
 
